@@ -1,67 +1,69 @@
-# 🤖 CHAHAT-AI-ETHICS
-
-An AI Ethics-focused project that demonstrates a **Retrieval-Augmented Generation (RAG) system** combined with a **chatflow architecture** to provide structured, ethical, and explainable AI responses.
-
----
+# 🤖 AI Ethics RAG System using n8n
 
 ## 📌 Project Overview
-
-This repository showcases:
-
-- 🧠 **AI Ethics RAG System** – Retrieves relevant ethical knowledge before generating responses  
-- 💬 **Chatflow Architecture** – Defines how user queries are processed step-by-step  
-- 📊 **System Visualizations** – Includes diagrams for better understanding of the workflow  
-
-The goal is to build AI systems that are **transparent, responsible, and aligned with ethical principles**.
+This project demonstrates an **AI Ethics RAG (Retrieval-Augmented Generation) System** built using **n8n workflow automation**.  
+It uses AI to answer questions based on an AI Ethics document.
 
 ---
 
-## 📁 Repository Structure
+## 🚀 Features
+- 📄 Document-based AI responses
+- 🔍 Retrieval-Augmented Generation (RAG)
+- 🤖 Automated workflow using n8n
+- 💬 Chat-based interaction
+- 📊 Visual workflow system
 
 ---
 
-## ⚙️ How It Works
-
-### 🔄 RAG System Flow
-
-1. User submits a query  
-2. System retrieves relevant ethical/contextual data  
-3. Retrieved knowledge is combined with the query  
-4. AI generates a grounded, ethical response  
+## 🛠️ Tools Used
+- n8n (Workflow Automation)
+- AI Models
+- RAG Architecture
+- GitHub
 
 ---
 
-### 💬 Chatflow Process
+## 📂 Project Files
 
-- Input handling  
-- Context retrieval  
-- Prompt construction  
-- Response generation  
-- Output delivery  
+- `AI Ethics RAG System Chatflow (1).json.txt` → n8n workflow
+- `chatflow.jpeg` → Chat interface output
+- `rag system.jpeg` → Workflow diagram
 
 ---
 
-## 🧩 Components
+## 🖼️ Project Screenshots
 
-### 1. RAG System
-- Enhances AI responses with external knowledge
-- Reduces hallucination
-- Improves factual accuracy
+### 🔹 Workflow Diagram
+![Workflow](rag%20system.jpeg)
 
-### 2. Chatflow JSON
-- Defines the pipeline logic
-- Controls how data flows between components
-
-### 3. Visual Diagrams
-- `chatflow.jpeg` → Shows conversation pipeline  
-- `rag system.jpeg` → Illustrates retrieval + generation process  
+### 🔹 Chat Output
+![Chat Output](chatflow.jpeg)
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ How to Run
 
-### 1. Clone the repository
+1. Open n8n
+2. Import the JSON file:
+   - `AI Ethics RAG System Chatflow (1).json.txt`
+3. Configure API keys (if required)
+4. Run the workflow
+5. Test using chat
 
-```bash
-git clone https://github.com/your-username/CHAHAT-AI-ETHICS.git
-cd CHAHAT-AI-ETHICS
+---
+
+## 🎯 Use Cases
+- AI Ethics learning system
+- Document-based chatbot
+- Educational assistant
+- Research tool
+
+---
+
+## 👩‍💻 Author
+Chahat Verma 
+
+---
+
+## ⭐ Support
+If you like this project, give it a ⭐ on GitHub!
